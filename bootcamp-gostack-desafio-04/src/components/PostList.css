@@ -1,0 +1,113 @@
+body #app .post {
+  display: flex;
+  justify-content: center;
+}
+
+body #app .post .postlist {
+  background: #fff;
+  width: 700px;
+  height: 250px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body #app .post .postlist .post-author {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+body #app .post .postlist .post-author .post-author-avatar img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+body #app .post .postlist .post-author .post-author-datails {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+body #app .post .postlist .post-author .post-author-datails strong {
+  font-size: 16px;
+  color: #000;
+}
+
+body #app .post .postlist .post-author .post-author-datails span {
+  font-size: 16px;
+  color: #5c5a5a96;
+}
+
+body #app .post .postlist .post-content p {
+  margin-top: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+body #app .post .postlist .post-content .post-comments {
+  margin-top: 20px;
+}
+
+body #app .post .postlist .post-content .post-comments .comment-content {
+  display: flex;
+}
+
+body
+  #app
+  .post
+  .postlist
+  .post-content
+  .post-comments
+  .comment-content
+  .comment {
+  display: flex;
+  align-items: center;
+}
+
+body
+  #app
+  .post
+  .postlist
+  .post-content
+  .post-comments
+  .comment-content
+  .comment
+  p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  background: #eee;
+  height: 80px;
+  width: 592px;
+  border-radius: 16px;
+}
+
+body
+  #app
+  .post
+  .postlist
+  .post-content
+  .post-comments
+  .comment-content
+  .comment
+  p
+  span {
+  font-weight: bold;
+}
+
+body
+  #app
+  .post
+  .postlist
+  .post-content
+  .post-comments
+  .comment-content
+  .comment
+  img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
